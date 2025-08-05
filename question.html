@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/subsets/Paperlogy-dynamic-subset.css" type="text/css"/>
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/question.css">
+  <!-- js 파일이 import 한 데이터를 갖고 있는 경우 -->
+  <script type="module" defer src="./js/question.js" ></script>
   <title>My MBTI Question</title>
 </head>
 <body>
@@ -16,8 +18,8 @@
   <div class="question-box">
     <div class="number">01</div>
     <div class="question">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere similique quisquam ratione aperiam minima. Rerum dolorem, rem dolorum iusto cum sapiente laudantium sunt. Incidunt unde perspiciatis excepturi in quas molestiae?</div>
-    <div class="btn btn-gray choice">adipisicing elit. Facere similique quisquam</div>
-    <div class="btn btn-gray choice">rem dolorum iusto cum sapiente laudantium sunt.</div>
+    <div class="btn btn-gray choice choice1" onselectstart="return false" >adipisicing elit. Facere similique quisquam</div>
+    <div class="btn btn-gray choice choice2" onselectstart="return false" >rem dolorum iusto cum sapiente laudantium sunt.</div>
   </div>
 </body>
 </html>

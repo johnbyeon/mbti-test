@@ -1,7 +1,14 @@
 body{
   font-family: "Paperlogy", -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  word-break: keep-all;
 }
 
+
+img{
+  display: block;
+}
 .page-title{
   font-size: 50px;
   font-weight: 800;

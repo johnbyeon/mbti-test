@@ -1,4 +1,4 @@
-import { questions } from "./data.js";
+import { questions  } from "./data.js";
 
 // console.log("질문 페이지")
 // console.log(questions[0].number)
@@ -14,7 +14,7 @@ const choice2El = document.querySelector(".choice2");
 let currentNumber = 0;
 let mbti = "";
 //choice1El 과 choice1El2에 클릭 이벤트를 걸어 놓는다.
-choice1El.addEventListener('click',function(){nextQuestion(0)})
+choice1El.addEventListener('click',function(){extQuestion(0)})
 
 choice2El.addEventListener('click',function(){nextQuestion(1)})
 
